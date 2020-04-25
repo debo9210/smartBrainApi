@@ -32,7 +32,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send(dataBase.users);
+  res.send("It's working....");
 });
 
 app.post('/signin', (req, res) => {
