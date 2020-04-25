@@ -58,5 +58,5 @@ app.post('/imageurl', (req, res) => {
 const port = 3001 || process.env.PORT;
 
 app.listen(port, () => {
-  console.log('Server Started on Port 3001...');
+  console.log(`Server Started on Port ${port}...`);
 });
